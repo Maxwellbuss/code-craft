@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>CODE CRAFT ACADEMY SCHOOL REGISTRATON </head>
+<meta charset="UTF-8">
+<title>CODE CRAFT ACADEMY REGISTRATION FORM</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background: #951e1e;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solidOIP.webp;
+    border-radius: 4px;
+  }
+
+  .checkbox-group {
+    margin-top: 10px;
+  }
+
+  .checkbox-group label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 15px;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #052c57;
+    color: rgb(25, 3, 3);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+
+<body>
+
+  <h1>CODE CRAFT ACADEMY REGISTRATION FORM</h1>
+
+  <form action="https://formsubmit.co/afframmaxwelljunor@gmail.com" method="POST">
+    <!-- Required hidden fields -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Registration from Code SCH">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://example.com/thank-you.html">
+
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" name="Full Name" required>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="Date of Birth" required>
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="Gender" required>
+      <option value="">Select</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="Email" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="Phone" required>
+
+    <label for="address">Address</label>
+    <textarea id="address" name="Address" rows="3" required></textarea>
+
+    <label>Course Selection</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="Courses[]" value="Web Development"> Web Development</label>
+      <label><input type="checkbox" name="Courses[]" value="Python Programming"> Python Programming</label>
+      <label><input type="checkbox" name="Courses[]" value="Game Development"> Game Development</label>
+      <label><input type="checkbox" name="Courses[]" value="Mobile App Development"> Mobile App Development</label>
+      <label><input type="checkbox" name="Courses[]" value="Data Science & AI"> Data Science & AI</label>
+      <label><input type="checkbox" name="Courses[]" value="ETHICAL HACKING"> ETHICAL HACKING</label>
+    </div>
+
+    <label for="otherCourse">Other (if any)</label>
+    <input type="text" id="otherCourse" name="Other Course">
+
+    <label for="experience">Skill Level</label>
+    <select id="experience" name="Skill Level" required>
+      <option value="">Select</option>
+      <option value="Beginner">Beginner</option>
+      <option value="Intermediate">Intermediate</option>
+      <option value="Advanced">Advanced</option>
+    </select>
+
+    <label for="mode">Preferred Learning Mode</label>
+    <select id="mode" name="Learning Mode" required>
+      <option value="">Select</option>
+      <option value="Online">Online</option>
+      <option value="In-person">In-person</option>
+      <option value="Hybrid">Hybrid</option>
+    </select>
+
+    <label>Preferred Days</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="Preferred Days[]" value="Monday"> Monday</label>
+      <label><input type="checkbox" name="Preferred Days[]" value="Tuesday"> Tuesday</label>
+      <label><input type="checkbox" name="Preferred Days[]" value="Wednesday"> Wednesday</label>
+      <label><input type="checkbox" name="Preferred Days[]" value="Thursday"> Thursday</label>
+      <label><input type="checkbox" name="Preferred Days[]" value="Friday"> Friday</label>
+      <label><input type="checkbox" name="Preferred Days[]" value="Saturday"> Saturday</label>
+    </div>
+
+    <label for="time">Preferred Time</label>
+    <select id="time" name="Preferred Time" required>
+      <option value="">Select</option>
+      <option value="Morning">Morning</option>
+      <option value="Afternoon">Afternoon</option>
+      <option value="Evening">Evening</option>
+    </select>
+
+    <label for="notes">Additional Notes / Medical Conditions / Learning Requirements</label>
+    <textarea id="notes" name="Additional Notes" rows="4"></textarea>
+
+    <label>
+      <input type="checkbox" name="Consent" required> I confirm the above information is accurate and I agree to the
+      terms.
+    </label>
+
+    <button type="submit">Submit Registration</button>
+  </form>
+
+</body>
+
+</html>
