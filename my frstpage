@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Craft Academy</title>
+    <style rel="css">
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body background="phi6.jpg">
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Code Craft Academy</h1>
+            <p>Your Pathway to IT Excellence</p>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <img src="images/python-course.jpg" alt="Python Course">
+                <h3>Python Programming</h3>
+                <p>Learn the fundamentals of Python programming.</p>
+            </div>
+            <div class="course">
+                <img src="images/web-development.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Build dynamic websites using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="course">
+                <img src="images/data-science.jpg" alt="Data Science">
+                <h3>Data Science</h3>
+                <p>Analyze and visualize data using Python and libraries like Pandas and Matplotlib.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors">
+        <div class="container">
+            <h2>Meet Our Instructors</h2>
+            <div class="instructor">
+                <img src="" alt="Instructor 1">
+
+                <h3>JohnDoe</h3>
+                <img src="hh.webp" alt="john doe " height="100px" width="100px" <p>Expert in Python and Data Science.
+                </p>
+
+            </div>
+            <div class="instructor">
+                <img src="" alt="Instructor 2">
+                <h3>Jane Smith</h3>
+                <img src="h.avif" alt="Jane Smith" height="125px" width="125px">
+                <p>Specializes in Web Development and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial">
+                <p>"Code Craft Academy transformed my career. The courses are practical and insightful."</p>
+                <p>- Michael A.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The instructors are knowledgeable and always ready to help. Highly recommend!"</p>
+                <p>- Sarah B.</p>
+            </div>The teaches are ready to teach and the enviroment to be comfortable
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@codecraftacademy.com</p>
+            <p>Phone: +233 0539432433</p>
+            <p>Address: Ho, Volta Region, Ghana</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Code Craft Academy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html><img src="https://via.placeholder.com/300x200" alt="Sample Course">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>to join our class kindly fll this form and submit
+
+
+}
+
+
+<br>
+l>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Craft Academy</title>
+    <style rel="css">
+        h1 {
+            color: OIPwebp(247, 244, 244);
+        }
+    </style>
+</head>
+
+<body bgcolor="cyan">
+    <form>
+        <fieldset>
+            <p>
+
+                <head>CODE CRAFT ACADEMY SCHOOL REGISTRATON </head>
+                <meta charset="UTF-8">
+                <title>CODE CRAFT ACADEMY REGISTRATION FORM</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        max-width: 700px;
+                        margin: auto;
+                        padding: 20px;
+                        background: #f4f4f4;
+                    }
+
+                    h1 {
+                        text-align: center;
+                        color: #333;
+                    }
+
+                    form {
+                        background: #fff;
+                        padding: 20px;
+                        border-radius: 8px;
+                    }
+
+                    label {
+                        display: block;
+                        margin-top: 15px;
+                        font-weight: bold;
+                    }
+
+                    input,
+                    select,
+                    textarea {
+                        width: 100%;
+                        padding: 10px;
+                        margin-top: 5px;
+                        border: 1px solidOIP.webp;
+                        border-radius: 4px;
+                    }
+
+                    .checkbox-group {
+                        margin-top: 10px;
+                    }
+
+                    .checkbox-group label {
+                        display: inline-block;
+                        font-weight: normal;
+                        margin-right: 15px;
+                    }
+
+                    button {
+                        margin-top: 20px;
+                        padding: 12px 20px;
+                        background-color: #052c57;
+                        color: rgb(25, 3, 3);
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+
+                    button:hover {
+                        background-color: #0056b3;
+                    }
+                </style>
+                </head>
+
+                <body>
+
+                    <h1>CODE CRAFT ACADEMY REGISTRATION FORM</h1>
+
+                    <form action="https://formsubmit.co/afframmaxwelljunor@gmail.com" method="POST">
+                        <!-- Required hidden fields -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Registration from Code SCH">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://example.com/thank-you.html">
+
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="Full Name" required>
+
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="Date of Birth" required>
+
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="Gender" required>
+                            <option value="">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="Email" required>
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="Phone" required>
+
+                        <label for="address">Address</label>
+                        <textarea id="address" name="Address" rows="3" required></textarea>
+
+                        <label>Course Selection</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="Courses[]" value="Web Development"> Web
+                                Development</label>
+                            <label><input type="checkbox" name="Courses[]" value="Python Programming"> Python
+                                Programming</label>
+                            <label><input type="checkbox" name="Courses[]" value="Game Development"> Game
+                                Development</label>
+                            <label><input type="checkbox" name="Courses[]" value="Mobile App Development"> Mobile App
+                                Development</label>
+                            <label><input type="checkbox" name="Courses[]" value="Data Science & AI"> Data Science &
+                                AI</label>
+                            <label><input type="checkbox" name="Courses[]" value="ETHICAL HACKING"> ETHICAL
+                                HACKING</label>
+                        </div>
+
+                        <label for="otherCourse">Other (if any)</label>
+                        <input type="text" id="otherCourse" name="Other Course">
+
+                        <label for="experience">Skill Level</label>
+                        <select id="experience" name="Skill Level" required>
+                            <option value="">Select</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        </select>
+
+                        <label for="mode">Preferred Learning Mode</label>
+                        <select id="mode" name="Learning Mode" required>
+                            <option value="">Select</option>
+                            <option value="Online">Online</option>
+                            <option value="In-person">In-person</option>
+                            <option value="Hybrid">Hybrid</option>
+                        </select>
+
+                        <label>Preferred Days</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="Preferred Days[]" value="Monday"> Monday</label>
+                            <label><input type="checkbox" name="Preferred Days[]" value="Tuesday"> Tuesday</label>
+                            <label><input type="checkbox" name="Preferred Days[]" value="Wednesday"> Wednesday</label>
+                            <label><input type="checkbox" name="Preferred Days[]" value="Thursday"> Thursday</label>
+                            <label><input type="checkbox" name="Preferred Days[]" value="Friday"> Friday</label>
+                            <label><input type="checkbox" name="Preferred Days[]" value="Saturday"> Saturday</label>
+                        </div>
+
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="Preferred Time" required>
+                            <option value="">Select</option>
+                            <option value="Morning">Morning</option>
+                            <option value="Afternoon">Afternoon</option>
+                            <option value="Evening">Evening</option>
+                        </select>
+
+                        <label for="notes">Additional Notes / Medical Conditions / Learning Requirements</label>
+                        <textarea id="notes" name="Additional Notes" rows="4"></textarea>
+
+                        <label>
+                            <input type="checkbox" name="Consent" required> I confirm the above information is accurate
+                            and I agree to the
+                            terms.
+                        </label>
+
+                        <button type="submit">Submit Registration</button>
+                    </form>
+
+                </body>
+
+</html>
+</p>
+<fieldset>
+
+
+
+
+    </form>
